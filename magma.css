@@ -1,0 +1,433 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+  
+    position: relative;
+}
+
+.page1 img{
+    object-fit: contain;
+    mix-blend-mode: color-dodge;
+}
+
+.page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    height: 7vh;
+    width: 100vw;
+   
+
+}
+
+.right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #0c0303;
+    background-color: #0b48ed;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 10;
+}
+
+.bottom-page{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    height: 35vh;
+    
+    width: 50vw;
+}
+
+.bottom-page>h1{
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+.bottom-page-inner{
+    position: absolute;
+ top: 40%;
+    height: 50%;
+    width: 100%;
+   
+    font-size: 2.3vw;
+    font-weight: 30;
+}
+
+.bottom-page-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+   
+
+.bottom-page-inner>button{
+   
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 10px;
+
+}
+
+h1{
+    color: #fff;
+}
+
+.bottom-page-inner>h4{
+
+    font-size: 1vw;
+    font-weight: 100;
+    
+    color: rgb(234, 237, 242);
+    padding-top: 35px;
+
+}
+
+.page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+    background-color: #0b48ed;
+    padding: 0vw 8vw;
+
+}
+
+.page2>h3{
+    top: 0;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 4vw;
+}
+
+.page2>h1{
+    width: 90%;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #dadada8e;
+}
+
+.page-2_2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#0b48ed;
+    padding: 0vw 8vw;
+}
+
+.page-2_2>h4{
+    top: 10;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 4vw;
+
+}
+
+.page-2_2>h1{
+    width: 90%;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    
+}
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b48ed;
+ 
+}
+
+
+.page4{
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b48ed;
+ 
+}
+
+
+.page4>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.page4-bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+   
+
+}
+
+
+.page4-bottom>h1{
+    
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+    font-weight: 90;
+    bottom: 7%;
+}
+
+
+.page4-bottom>button{
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 10px;
+    bottom: 7%;
+
+
+} 
+
+.page5{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b48ed;
+
+}
+
+.left5{
+    height: 100%;width: 40%;
+   
+    position: relative;
+}
+
+.left5>h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translateY(-50%);
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.right5{
+
+    height: 100%;
+    width: 60%;
+    
+    position: relative;
+}
+
+.right5-img{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    bottom: 46%;
+    border-radius: 10px;
+    position: absolute;
+    
+    
+   
+    background-size: cover;
+
+}
+
+.right5-img img{
+    
+    height: 40%;
+    width: 60%;
+}
+
+.page6{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-color: #fafbfb;
+
+}
+
+.page6>h1{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    color: black;
+    font-weight: 100;
+    font-size: 4vw;
+}
+
+.page6-inner{
+    display: flex;
+    top: 16%;
+    position: relative;
+    padding-top: 2vw;
+    margin-bottom: 0.5%;
+    height: 25%;
+    width: 100%;
+   
+}
+
+
+
+.left6{
+    position: relative;
+    height: 100%;
+    width: 50%;
+   
+}
+
+.left6>img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+
+
+.right6{
+    padding-top: 4vw;
+    padding-left: 20px;
+    position: relative;
+    height: 100%;
+    width: 50%;
+   
+    color: black;
+    
+}
+
+.right6>h1{
+    font-weight: 350;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.right6>h4{
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(11,60,204);
+    color: #fff;
+
+}
+
+.page7-inner{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+  
+}
+
+.page7-inner>h1{
+    font-weight: 100;
+    font-size: 6vw;
+}
+
+.page7-inner>h3{
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+.page8{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color:#000;
+    color: #fff;
+
+}
+
+.page8-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    height: 33%;
+    width: 100%;
+    color: #fff;
+    border-top: 1px solid rgb(86, 81, 81);
+    border-bottom: 1px solid rgb(86, 81, 81);
+
+}
+
+.page8-inner i{
+    font-size: 3vw;
+    font-weight: 90;
+    position: relative;
+    z-index: 9999;
+}
+
+.page8-inner h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+    font-weight: 90;
+    position: relative;
+    z-index: 9999;
+}
+
+.center8{
+    height: 0%;
+    width: 100%;
+    background-color: rgb(32, 29, 195);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease .5s;
+
+}
+
+.page8-inner:hover .center8{
+    height: 100%;
+}
